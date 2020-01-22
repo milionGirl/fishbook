@@ -1,5 +1,5 @@
 from flask import current_app
-from httper import HTTP
+from app.lib.httper import HTTP
 
 class YuShuBook:
     isbn_url = 'http://t.yushu.im/v2/book/isbn/{}'
