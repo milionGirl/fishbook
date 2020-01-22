@@ -2,11 +2,9 @@
 #requests
 import requests
 
-#scrapy并发多线程爬虫, requests + beautiful soap
-
 
 class HTTP:
-
+    # scrapy并发多线程爬虫, requests + beautiful soap
     @staticmethod
     def get(url, return_json = True):
         #r对象中包括http headers,大部分接口都是restful,
